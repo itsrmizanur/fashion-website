@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+
+
+/* Navbar Styles */
+.nav-area {
+    height: 100vh;
+    margin: 50px 100px;
+}
+.nav-bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    align-content: center;
+}
+.main-logo {
+    width: 200px;
+}
