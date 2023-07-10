@@ -3,8 +3,27 @@
     padding: 0;
     list-style: none;
     text-decoration: none;
+    font-family: 'Poppins', sans-serif;
 }
 
+
+/* Cpmmon Designs */
+.btn {
+    color: white;
+    font-size: 30px;
+    background-color: black;
+    padding: 20px 40px;
+    margin: 50px 0;
+    border: 1px solid transparent;
+    border-radius: 10px;
+    transition: color .3s, background-color .3s;
+}
+
+.btn:hover {
+    color: black;
+    background-color: white;
+    border: 1px solid black;
+}
 
 
 /* Navbar Styles */
@@ -24,7 +43,6 @@
 .navigations {
     display: flex;
     justify-content: space-between;
-    justify-content: center
 }
 .navigations li a{
     color: black;
@@ -49,19 +67,94 @@
 .showcase-section p {
     padding: 40px 0 0 0;
 }
-.showcase-section button {
-    color: white;
-    font-size: 30px;
-    background-color: black;
-    padding: 20px 40px;
-    margin: 50px 0;
-    border: 1px solid transparent;
-    border-radius: 10px;
-    transition: color .3s, background-color .3s;
-}
-.showcase-section button:hover {
-    color: black;
-    background-color: white;
-    border: 1px solid black;
+
+.showcase-section img {
+    max-width: 887px;
 }
 
+
+
+
+
+
+
+/* Sticker Sevtion starts */
+.sticker {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 150px;
+    margin: 200px 0 70px 0;
+    background-color: #EBD96B;
+}
+.sticker img {
+    height: 60px;
+}
+
+
+
+
+/* Catagory section */
+.catagory {
+    padding: 20px 50px 100px 50px;
+}
+
+.catagory h3 {
+    font-weight: 900;
+    font-size: 40px;
+    text-align: center;
+    padding: 20px;
+}
+.cards {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+}
+.card img{
+    max-width: 350px;
+    padding-bottom: 20px;
+}
+.card h2 {
+    font-weight: 500;
+}
+.card-head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.card-head img{
+    width: 34px;
+    padding-top: 20px;
+}
+.card p {
+    font-size: 24px;
+    color: #333;
+}
+
+
+
+
+
+
+
+/* Sell Noe Section */
+
+.sell-now {
+    background: linear-gradient(360deg, #E0C340 0%, #DFC23E 3.93%, #E1C441 7.23%, #E3C743 10.23%, #E4C542 13.14%, #E6C744 16.22%, #E7C845 19.84%, #E5C643 24.38%, #E6C945 31.00%, #E3C743 37.19%, #E9CA48 43.33%, #EDCE49 50.36%, #F0D44C 56.57%, #F4D84F 62.71%, #F6DA52 67.12%, #F7DB53 73.77%, #F9DD55 79.08%, #F9DF56 85.64%, #FAE157 93.50%, #F9DF56 100%);
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.sell-now img {
+    max-width: 800px;
+}
+.sell-now h1{
+    font-size: 80px;
+    line-height: 100px;
+}
+.sell-now p {
+    font-size: 24px;
+}
+.sell-now h3 {
+    padding: 10px 0;
+}
