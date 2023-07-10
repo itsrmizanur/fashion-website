@@ -162,3 +162,10 @@
 .btn-pay {
     color: #f8eaa6;
 }
+
+
+
+/* Young’s Favourite section */
+.favourite img {
+    max-width: 600px;
+}
