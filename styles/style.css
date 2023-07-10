@@ -50,6 +50,10 @@
     margin: 0 5px;
 }
 
+.btn-nav {
+    margin: 0;
+}
+
 .showcase-section {
     display: flex;
     align-items: center;
